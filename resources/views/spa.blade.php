@@ -63,13 +63,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
 
     <script>
-    $(function() {
-        $.ajaxSetup({
-            headers: {
-            'X-CSRF-Token': $('meta[name="csrf-token"]').attr('content')
-            }
-        });
-    });
         let vm = new Vue({
             el: '#app',
             data: {
